@@ -1,8 +1,8 @@
 {
-  "name": "multiplication-table",
+  "name": "pattern-questions",
   "version": "1.0.0",
   "description": "",
-  "main": "Multiplication table.js",
+  "main": "triangle.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
