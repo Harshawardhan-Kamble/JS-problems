@@ -9,3 +9,8 @@ for(let i=1;i<=number;i++){
     symbol+="\n";
 }
 console.log(symbol)
+//using repeat and just one loop
+var symbol_1="* ";
+for(let i=0;i<=number;i++){
+    console.log(symbol_1.repeat(i));
+}
