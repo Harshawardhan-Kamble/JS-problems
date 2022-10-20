@@ -1,6 +1,6 @@
 const readlineSync=require("readline-sync")
-const n=readlineSync.question(`Enter a number s`)
+const number=readlineSync.question(`Enter a number`)
 for(let i=1;i<=10;i++){
-    let product=n*i;
-    console.log(`${n} * ${i} = ${product}`)
+    let product=number*i;
+    console.log(`${number} * ${i} = ${product}`)
 }
