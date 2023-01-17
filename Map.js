@@ -4,5 +4,19 @@ const arr=[...inputArray]
 function getSquares(number){
     return number**2;
 }
-const output=arr.map(getSquares)
-console.log(output)
+function cube(number){
+    return number**3;
+}
+// Using without map function
+function output(operation){
+tempArray=[];
+for(let number of arr){
+    tempArray.push(getSquares(number));
+}
+return tempArray;
+}
+const value=output(getSquares)
+console.log(value)
+// Using Map function
+const result=arr.map(getSquares)
+console.log(result)
