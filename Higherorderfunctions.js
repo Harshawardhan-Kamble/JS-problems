@@ -35,5 +35,7 @@ return tempArray;
 const value=output(cube,arr);
 console.log(value)
 
-const outputUsingMap=arr.map((number)=>number**2)
+const outputUsingMap=arr.map((number,index)=>{
+    console.log(index)
+    return number**2})
 console.log(outputUsingMap)
