@@ -1,4 +1,4 @@
-const arr= [1,2,3,4,5,6,7,8,9]
+const arr=[1,2,3,4,5,6,7,8,9]
 // Without using Reduce function
 function findSum(){
     let sum=0;
@@ -9,14 +9,6 @@ function findSum(){
 }
 const sumOfTheElements=findSum();
 console.log(sumOfTheElements)
-// Reduce function
-const sumUsingReduceFunction=arr.reduce((acc,curr)=>{
-    acc+=curr;
-    return acc;
-})
+// // Reduce function
+const sumUsingReduceFunction=arr.reduce((acc,curr)=>acc+curr)
 console.log(sumUsingReduceFunction)
-
-
-
-
-
